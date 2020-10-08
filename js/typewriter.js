@@ -1,7 +1,7 @@
 var txt = [
   "print("+'"Hello World"'+");",
   "print("+'"Hi, I am Henk Crous"'+");",
-  "print("+'"I am a fouth year IT student at the NWU"'+");"
+  "print("+'"I am a third year IT student at the NWU"'+");"
 ];
 
 var CharDelay = 300;
