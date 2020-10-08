@@ -123,13 +123,13 @@ div#typewriter {
         transform: scale(1);
     }
     15% {
-        box-shadow: 0 0 0 5px rgba(231, 14, 43, 0.5)/*(255, 255, 255, 0.4)*/;
+        box-shadow: 0 0 0 5px rgba(231, 14, 43, 0.5);
     }
     25% {
-        box-shadow: 0 0 0 10px rgba(231, 14, 43, 0.3)B/*(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.2)*/;
+        box-shadow: 0 0 0 10px rgba(231, 14, 43, 0.3);
     }
     25% {
-        box-shadow: 0 0 0 15px rgba(231, 14, 43, 0.3)/*(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0.2)*/;
+        box-shadow: 0 0 0 15px rgba(231, 14, 43, 0.3);
     }
 
 }

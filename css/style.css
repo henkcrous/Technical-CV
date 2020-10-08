@@ -30,19 +30,19 @@ body {
 }
 
 .collapse {
-display: none;
+display: none !important;
 }
 
 .collapse.show {
-display: block;
+display: block !important;
 }
 
 tr.collapse.show {
-display: table-row;
+display: table-row !important;
 }
 
 tbody.collapse.show {
-display: table-row-group;
+display: table-row-group !important;
 }
 
 .nav {
@@ -558,13 +558,19 @@ textarea {
 
 button,
 input {
-  overflow: visible;
+  overflow: visible !important;
 }
 
 button,
 select {
-  text-transform: none;
+  text-transform: none !important;
 }
+
+
+.table {
+  border-collapse: collapse !important;
+}
+
 
 .navbar-collapse {
   -ms-flex-preferred-size: 100%;
@@ -702,6 +708,10 @@ border-color: #E70E2B !important;
 margin-right: auto !important;
 }
 
+.mx-15 {
+  margin-right: 15% !important;
+}
+
 .my-3 {
 margin-top: 1rem !important;
 }
@@ -802,9 +812,9 @@ nav-link:hover{
 
 div#text-bg {
   background-image: url(../img/text_bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
   width: 74% !important;
   margin-left: 13% !important;
   margin-right: 13% !important;
@@ -878,4 +888,9 @@ div#p-text {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
+}
+
+.mg-lf-rg {
+  margin-left: 35% !important;
+  margin-right: 35% !important;
 }
