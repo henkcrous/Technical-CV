@@ -889,8 +889,3 @@ div#p-text {
   transform: translateZ(0);
   will-change: transform;
 }
-
-.mg-lf-rg {
-  margin-left: 35% !important;
-  margin-right: 35% !important;
-}
